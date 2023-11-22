@@ -45,10 +45,6 @@ public class StudentDetails {
 		this.salary = salary;
 	}
 
-	@Override
-	public String toString() {
-		return "StudentDetails [name=" + name + ", age=" + age + ", salary=" + salary + "]";
-	}
 	
 	
 }
