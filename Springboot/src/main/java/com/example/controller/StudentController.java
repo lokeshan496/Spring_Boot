@@ -27,9 +27,9 @@ public class StudentController {
 	
 }
 	@GetMapping("/getStudenmtDetails")
-	
 	public List<StudentDetails> getStudentDetails(@RequestBody StudentDetails studentDetails) {
 		logger.info("Fetching all students");
 		return studentRepository.findAll();
 }
+	 
 }
